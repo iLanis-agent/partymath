@@ -1,0 +1,1023 @@
+{
+ "cases": [
+  {
+   "fn": "cups",
+   "args": [
+    "46",
+    "3",
+    "50"
+   ],
+   "expect": "The 46 guests at 3 cups each need 138 cups, in packs of 50 that is 3 packs, leaving 12 cups."
+  },
+  {
+   "fn": "tables",
+   "args": [
+    "46",
+    "8"
+   ],
+   "expect": "The 46 guests at 8 a table take 6 tables, leaving 2 empty seats."
+  },
+  {
+   "fn": "trays",
+   "args": [
+    "46",
+    "4",
+    "24"
+   ],
+   "expect": "The 46 guests at 4 servings each need 184 servings, in trays of 24 that is 8 trays, leaving 8 servings."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "3",
+    "6.25",
+    "8",
+    "14.00"
+   ],
+   "expect": "The 3 packs at $6.25 and 8 trays at $14 cost $130.75, packs $18.75 and trays $112.00."
+  },
+  {
+   "fn": "tables",
+   "args": [
+    "1",
+    "1"
+   ],
+   "expect": "The 1 guest at 1 a table take 1 table, leaving 0 empty seats."
+  },
+  {
+   "fn": "cups",
+   "args": [
+    "1",
+    "1",
+    "1"
+   ],
+   "expect": "The 1 guest at 1 cup each need 1 cup, in packs of 1 that is 1 pack, leaving 0 cups."
+  },
+  {
+   "fn": "cups",
+   "args": [
+    "36493",
+    "29",
+    "5714"
+   ],
+   "expect": "The 36493 guests at 29 cups each need 1058297 cups, in packs of 5714 that is 186 packs, leaving 4507 cups."
+  },
+  {
+   "fn": "cups",
+   "args": [
+    "36413",
+    "43",
+    "2382"
+   ],
+   "expect": "The 36413 guests at 43 cups each need 1565759 cups, in packs of 2382 that is 658 packs, leaving 1597 cups."
+  },
+  {
+   "fn": "cups",
+   "args": [
+    "40489",
+    "71",
+    "8428"
+   ],
+   "expect": "The 40489 guests at 71 cups each need 2874719 cups, in packs of 8428 that is 342 packs, leaving 7657 cups."
+  },
+  {
+   "fn": "cups",
+   "args": [
+    "12776",
+    "44",
+    "9453"
+   ],
+   "expect": "The 12776 guests at 44 cups each need 562144 cups, in packs of 9453 that is 60 packs, leaving 5036 cups."
+  },
+  {
+   "fn": "cups",
+   "args": [
+    "61274",
+    "79",
+    "5787"
+   ],
+   "expect": "The 61274 guests at 79 cups each need 4840646 cups, in packs of 5787 that is 837 packs, leaving 3073 cups."
+  },
+  {
+   "fn": "cups",
+   "args": [
+    "37495",
+    "60",
+    "9835"
+   ],
+   "expect": "The 37495 guests at 60 cups each need 2249700 cups, in packs of 9835 that is 229 packs, leaving 2515 cups."
+  },
+  {
+   "fn": "cups",
+   "args": [
+    "4465",
+    "27",
+    "6927"
+   ],
+   "expect": "The 4465 guests at 27 cups each need 120555 cups, in packs of 6927 that is 18 packs, leaving 4131 cups."
+  },
+  {
+   "fn": "cups",
+   "args": [
+    "8435",
+    "57",
+    "6951"
+   ],
+   "expect": "The 8435 guests at 57 cups each need 480795 cups, in packs of 6951 that is 70 packs, leaving 5775 cups."
+  },
+  {
+   "fn": "cups",
+   "args": [
+    "4700",
+    "34",
+    "1742"
+   ],
+   "expect": "The 4700 guests at 34 cups each need 159800 cups, in packs of 1742 that is 92 packs, leaving 464 cups."
+  },
+  {
+   "fn": "cups",
+   "args": [
+    "41939",
+    "38",
+    "4482"
+   ],
+   "expect": "The 41939 guests at 38 cups each need 1593682 cups, in packs of 4482 that is 356 packs, leaving 1910 cups."
+  },
+  {
+   "fn": "cups",
+   "args": [
+    "49217",
+    "61",
+    "957"
+   ],
+   "expect": "The 49217 guests at 61 cups each need 3002237 cups, in packs of 957 that is 3138 packs, leaving 829 cups."
+  },
+  {
+   "fn": "cups",
+   "args": [
+    "44139",
+    "93",
+    "8082"
+   ],
+   "expect": "The 44139 guests at 93 cups each need 4104927 cups, in packs of 8082 that is 508 packs, leaving 729 cups."
+  },
+  {
+   "fn": "cups",
+   "args": [
+    "51055",
+    "96",
+    "2357"
+   ],
+   "expect": "The 51055 guests at 96 cups each need 4901280 cups, in packs of 2357 that is 2080 packs, leaving 1280 cups."
+  },
+  {
+   "fn": "cups",
+   "args": [
+    "67136",
+    "38",
+    "4684"
+   ],
+   "expect": "The 67136 guests at 38 cups each need 2551168 cups, in packs of 4684 that is 545 packs, leaving 1612 cups."
+  },
+  {
+   "fn": "cups",
+   "args": [
+    "11721",
+    "71",
+    "3647"
+   ],
+   "expect": "The 11721 guests at 71 cups each need 832191 cups, in packs of 3647 that is 229 packs, leaving 2972 cups."
+  },
+  {
+   "fn": "cups",
+   "args": [
+    "34174",
+    "67",
+    "636"
+   ],
+   "expect": "The 34174 guests at 67 cups each need 2289658 cups, in packs of 636 that is 3601 packs, leaving 578 cups."
+  },
+  {
+   "fn": "cups",
+   "args": [
+    "1182",
+    "13",
+    "4606"
+   ],
+   "expect": "The 1182 guests at 13 cups each need 15366 cups, in packs of 4606 that is 4 packs, leaving 3058 cups."
+  },
+  {
+   "fn": "cups",
+   "args": [
+    "66054",
+    "61",
+    "2221"
+   ],
+   "expect": "The 66054 guests at 61 cups each need 4029294 cups, in packs of 2221 that is 1815 packs, leaving 1821 cups."
+  },
+  {
+   "fn": "cups",
+   "args": [
+    "39623",
+    "84",
+    "5379"
+   ],
+   "expect": "The 39623 guests at 84 cups each need 3328332 cups, in packs of 5379 that is 619 packs, leaving 1269 cups."
+  },
+  {
+   "fn": "cups",
+   "args": [
+    "62411",
+    "26",
+    "4084"
+   ],
+   "expect": "The 62411 guests at 26 cups each need 1622686 cups, in packs of 4084 that is 398 packs, leaving 2746 cups."
+  },
+  {
+   "fn": "cups",
+   "args": [
+    "17405",
+    "39",
+    "1271"
+   ],
+   "expect": "The 17405 guests at 39 cups each need 678795 cups, in packs of 1271 that is 535 packs, leaving 1190 cups."
+  },
+  {
+   "fn": "cups",
+   "args": [
+    "46317",
+    "17",
+    "8595"
+   ],
+   "expect": "The 46317 guests at 17 cups each need 787389 cups, in packs of 8595 that is 92 packs, leaving 3351 cups."
+  },
+  {
+   "fn": "cups",
+   "args": [
+    "28089",
+    "2",
+    "5262"
+   ],
+   "expect": "The 28089 guests at 2 cups each need 56178 cups, in packs of 5262 that is 11 packs, leaving 1704 cups."
+  },
+  {
+   "fn": "cups",
+   "args": [
+    "10235",
+    "63",
+    "5945"
+   ],
+   "expect": "The 10235 guests at 63 cups each need 644805 cups, in packs of 5945 that is 109 packs, leaving 3200 cups."
+  },
+  {
+   "fn": "cups",
+   "args": [
+    "72548",
+    "72",
+    "9263"
+   ],
+   "expect": "The 72548 guests at 72 cups each need 5223456 cups, in packs of 9263 that is 564 packs, leaving 876 cups."
+  },
+  {
+   "fn": "tables",
+   "args": [
+    "52894",
+    "30"
+   ],
+   "expect": "The 52894 guests at 30 a table take 1764 tables, leaving 26 empty seats."
+  },
+  {
+   "fn": "tables",
+   "args": [
+    "34287",
+    "80"
+   ],
+   "expect": "The 34287 guests at 80 a table take 429 tables, leaving 33 empty seats."
+  },
+  {
+   "fn": "tables",
+   "args": [
+    "2380",
+    "16"
+   ],
+   "expect": "The 2380 guests at 16 a table take 149 tables, leaving 4 empty seats."
+  },
+  {
+   "fn": "tables",
+   "args": [
+    "60073",
+    "34"
+   ],
+   "expect": "The 60073 guests at 34 a table take 1767 tables, leaving 5 empty seats."
+  },
+  {
+   "fn": "tables",
+   "args": [
+    "43188",
+    "95"
+   ],
+   "expect": "The 43188 guests at 95 a table take 455 tables, leaving 37 empty seats."
+  },
+  {
+   "fn": "tables",
+   "args": [
+    "85320",
+    "54"
+   ],
+   "expect": "The 85320 guests at 54 a table take 1580 tables, leaving 0 empty seats."
+  },
+  {
+   "fn": "tables",
+   "args": [
+    "70375",
+    "48"
+   ],
+   "expect": "The 70375 guests at 48 a table take 1467 tables, leaving 41 empty seats."
+  },
+  {
+   "fn": "tables",
+   "args": [
+    "16063",
+    "18"
+   ],
+   "expect": "The 16063 guests at 18 a table take 893 tables, leaving 11 empty seats."
+  },
+  {
+   "fn": "tables",
+   "args": [
+    "10233",
+    "9"
+   ],
+   "expect": "The 10233 guests at 9 a table take 1137 tables, leaving 0 empty seats."
+  },
+  {
+   "fn": "tables",
+   "args": [
+    "57853",
+    "75"
+   ],
+   "expect": "The 57853 guests at 75 a table take 772 tables, leaving 47 empty seats."
+  },
+  {
+   "fn": "tables",
+   "args": [
+    "69230",
+    "88"
+   ],
+   "expect": "The 69230 guests at 88 a table take 787 tables, leaving 26 empty seats."
+  },
+  {
+   "fn": "tables",
+   "args": [
+    "86263",
+    "18"
+   ],
+   "expect": "The 86263 guests at 18 a table take 4793 tables, leaving 11 empty seats."
+  },
+  {
+   "fn": "tables",
+   "args": [
+    "56963",
+    "45"
+   ],
+   "expect": "The 56963 guests at 45 a table take 1266 tables, leaving 7 empty seats."
+  },
+  {
+   "fn": "tables",
+   "args": [
+    "39153",
+    "55"
+   ],
+   "expect": "The 39153 guests at 55 a table take 712 tables, leaving 7 empty seats."
+  },
+  {
+   "fn": "tables",
+   "args": [
+    "52907",
+    "25"
+   ],
+   "expect": "The 52907 guests at 25 a table take 2117 tables, leaving 18 empty seats."
+  },
+  {
+   "fn": "tables",
+   "args": [
+    "20820",
+    "76"
+   ],
+   "expect": "The 20820 guests at 76 a table take 274 tables, leaving 4 empty seats."
+  },
+  {
+   "fn": "tables",
+   "args": [
+    "20566",
+    "35"
+   ],
+   "expect": "The 20566 guests at 35 a table take 588 tables, leaving 14 empty seats."
+  },
+  {
+   "fn": "tables",
+   "args": [
+    "51333",
+    "54"
+   ],
+   "expect": "The 51333 guests at 54 a table take 951 tables, leaving 21 empty seats."
+  },
+  {
+   "fn": "tables",
+   "args": [
+    "4010",
+    "21"
+   ],
+   "expect": "The 4010 guests at 21 a table take 191 tables, leaving 1 empty seat."
+  },
+  {
+   "fn": "tables",
+   "args": [
+    "28991",
+    "7"
+   ],
+   "expect": "The 28991 guests at 7 a table take 4142 tables, leaving 3 empty seats."
+  },
+  {
+   "fn": "trays",
+   "args": [
+    "15073",
+    "37",
+    "654"
+   ],
+   "expect": "The 15073 guests at 37 servings each need 557701 servings, in trays of 654 that is 853 trays, leaving 161 servings."
+  },
+  {
+   "fn": "trays",
+   "args": [
+    "12367",
+    "62",
+    "650"
+   ],
+   "expect": "The 12367 guests at 62 servings each need 766754 servings, in trays of 650 that is 1180 trays, leaving 246 servings."
+  },
+  {
+   "fn": "trays",
+   "args": [
+    "8249",
+    "46",
+    "303"
+   ],
+   "expect": "The 8249 guests at 46 servings each need 379454 servings, in trays of 303 that is 1253 trays, leaving 205 servings."
+  },
+  {
+   "fn": "trays",
+   "args": [
+    "72142",
+    "61",
+    "86"
+   ],
+   "expect": "The 72142 guests at 61 servings each need 4400662 servings, in trays of 86 that is 51171 trays, leaving 44 servings."
+  },
+  {
+   "fn": "trays",
+   "args": [
+    "54866",
+    "62",
+    "879"
+   ],
+   "expect": "The 54866 guests at 62 servings each need 3401692 servings, in trays of 879 that is 3870 trays, leaving 38 servings."
+  },
+  {
+   "fn": "trays",
+   "args": [
+    "91704",
+    "5",
+    "723"
+   ],
+   "expect": "The 91704 guests at 5 servings each need 458520 servings, in trays of 723 that is 635 trays, leaving 585 servings."
+  },
+  {
+   "fn": "trays",
+   "args": [
+    "6292",
+    "59",
+    "3"
+   ],
+   "expect": "The 6292 guests at 59 servings each need 371228 servings, in trays of 3 that is 123743 trays, leaving 1 serving."
+  },
+  {
+   "fn": "trays",
+   "args": [
+    "49076",
+    "72",
+    "949"
+   ],
+   "expect": "The 49076 guests at 72 servings each need 3533472 servings, in trays of 949 that is 3724 trays, leaving 604 servings."
+  },
+  {
+   "fn": "trays",
+   "args": [
+    "65339",
+    "83",
+    "194"
+   ],
+   "expect": "The 65339 guests at 83 servings each need 5423137 servings, in trays of 194 that is 27955 trays, leaving 133 servings."
+  },
+  {
+   "fn": "trays",
+   "args": [
+    "49848",
+    "48",
+    "167"
+   ],
+   "expect": "The 49848 guests at 48 servings each need 2392704 servings, in trays of 167 that is 14328 trays, leaving 72 servings."
+  },
+  {
+   "fn": "trays",
+   "args": [
+    "76844",
+    "7",
+    "61"
+   ],
+   "expect": "The 76844 guests at 7 servings each need 537908 servings, in trays of 61 that is 8819 trays, leaving 51 servings."
+  },
+  {
+   "fn": "trays",
+   "args": [
+    "10537",
+    "34",
+    "874"
+   ],
+   "expect": "The 10537 guests at 34 servings each need 358258 servings, in trays of 874 that is 410 trays, leaving 82 servings."
+  },
+  {
+   "fn": "trays",
+   "args": [
+    "38207",
+    "88",
+    "18"
+   ],
+   "expect": "The 38207 guests at 88 servings each need 3362216 servings, in trays of 18 that is 186790 trays, leaving 4 servings."
+  },
+  {
+   "fn": "trays",
+   "args": [
+    "97259",
+    "40",
+    "678"
+   ],
+   "expect": "The 97259 guests at 40 servings each need 3890360 servings, in trays of 678 that is 5738 trays, leaving 4 servings."
+  },
+  {
+   "fn": "trays",
+   "args": [
+    "34481",
+    "28",
+    "494"
+   ],
+   "expect": "The 34481 guests at 28 servings each need 965468 servings, in trays of 494 that is 1955 trays, leaving 302 servings."
+  },
+  {
+   "fn": "trays",
+   "args": [
+    "60009",
+    "76",
+    "48"
+   ],
+   "expect": "The 60009 guests at 76 servings each need 4560684 servings, in trays of 48 that is 95015 trays, leaving 36 servings."
+  },
+  {
+   "fn": "trays",
+   "args": [
+    "28884",
+    "91",
+    "503"
+   ],
+   "expect": "The 28884 guests at 91 servings each need 2628444 servings, in trays of 503 that is 5226 trays, leaving 234 servings."
+  },
+  {
+   "fn": "trays",
+   "args": [
+    "39813",
+    "67",
+    "945"
+   ],
+   "expect": "The 39813 guests at 67 servings each need 2667471 servings, in trays of 945 that is 2823 trays, leaving 264 servings."
+  },
+  {
+   "fn": "trays",
+   "args": [
+    "60009",
+    "78",
+    "896"
+   ],
+   "expect": "The 60009 guests at 78 servings each need 4680702 servings, in trays of 896 that is 5224 trays, leaving 2 servings."
+  },
+  {
+   "fn": "trays",
+   "args": [
+    "2955",
+    "58",
+    "559"
+   ],
+   "expect": "The 2955 guests at 58 servings each need 171390 servings, in trays of 559 that is 307 trays, leaving 223 servings."
+  },
+  {
+   "fn": "trays",
+   "args": [
+    "47344",
+    "75",
+    "64"
+   ],
+   "expect": "The 47344 guests at 75 servings each need 3550800 servings, in trays of 64 that is 55482 trays, leaving 48 servings."
+  },
+  {
+   "fn": "trays",
+   "args": [
+    "99082",
+    "6",
+    "420"
+   ],
+   "expect": "The 99082 guests at 6 servings each need 594492 servings, in trays of 420 that is 1416 trays, leaving 228 servings."
+  },
+  {
+   "fn": "trays",
+   "args": [
+    "99972",
+    "93",
+    "49"
+   ],
+   "expect": "The 99972 guests at 93 servings each need 9297396 servings, in trays of 49 that is 189743 trays, leaving 11 servings."
+  },
+  {
+   "fn": "trays",
+   "args": [
+    "90979",
+    "71",
+    "486"
+   ],
+   "expect": "The 90979 guests at 71 servings each need 6459509 servings, in trays of 486 that is 13292 trays, leaving 403 servings."
+  },
+  {
+   "fn": "trays",
+   "args": [
+    "78977",
+    "93",
+    "283"
+   ],
+   "expect": "The 78977 guests at 93 servings each need 7344861 servings, in trays of 283 that is 25954 trays, leaving 121 servings."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "80453",
+    "947.11",
+    "65352",
+    "427.16"
+   ],
+   "expect": "The 80453 packs at $947.11 and 65352 trays at $427.16 cost $104113601.15, packs $76197840.83 and trays $27915760.32."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "88711",
+    "1295.9",
+    "24892",
+    "7925.8"
+   ],
+   "expect": "The 88711 packs at $1295.9 and 24892 trays at $7925.8 cost $312249598.50, packs $114960584.90 and trays $197289013.60."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "16475",
+    "9931.78",
+    "10838",
+    "8699.51"
+   ],
+   "expect": "The 16475 packs at $9931.78 and 10838 trays at $8699.51 cost $257911364.88, packs $163626075.50 and trays $94285289.38."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "52597",
+    "9228.05",
+    "9344",
+    "917.37"
+   ],
+   "expect": "The 52597 packs at $9228.05 and 9344 trays at $917.37 cost $493939651.13, packs $485367745.85 and trays $8571905.28."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "32043",
+    "3182.21",
+    "16526",
+    "9352.91"
+   ],
+   "expect": "The 32043 packs at $3182.21 and 16526 trays at $9352.91 cost $256533745.69, packs $101967555.03 and trays $154566190.66."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "40340",
+    "8775.12",
+    "65028",
+    "226.51"
+   ],
+   "expect": "The 40340 packs at $8775.12 and 65028 trays at $226.51 cost $368717833.08, packs $353988340.80 and trays $14729492.28."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "92660",
+    "2075.03",
+    "36410",
+    "553.61"
+   ],
+   "expect": "The 92660 packs at $2075.03 and 36410 trays at $553.61 cost $212429219.90, packs $192272279.80 and trays $20156940.10."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "27227",
+    "1763.45",
+    "71797",
+    "1596.76"
+   ],
+   "expect": "The 27227 packs at $1763.45 and 71797 trays at $1596.76 cost $162656030.87, packs $48013453.15 and trays $114642577.72."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "66802",
+    "7255.76",
+    "48365",
+    "1322.67"
+   ],
+   "expect": "The 66802 packs at $7255.76 and 48365 trays at $1322.67 cost $548670214.07, packs $484699279.52 and trays $63970934.55."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "72434",
+    "8464.98",
+    "19152",
+    "8182"
+   ],
+   "expect": "The 72434 packs at $8464.98 and 19152 trays at $8182 cost $769854025.32, packs $613152361.32 and trays $156701664.00."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "72333",
+    "3696.16",
+    "50283",
+    "3209.27"
+   ],
+   "expect": "The 72333 packs at $3696.16 and 50283 trays at $3209.27 cost $428726064.69, packs $267354341.28 and trays $161371723.41."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "84307",
+    "1598.39",
+    "11590",
+    "874.49"
+   ],
+   "expect": "The 84307 packs at $1598.39 and 11590 trays at $874.49 cost $144890804.83, packs $134755465.73 and trays $10135339.10."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "78038",
+    "9776.08",
+    "25907",
+    "1862.65"
+   ],
+   "expect": "The 78038 packs at $9776.08 and 25907 trays at $1862.65 cost $811161404.59, packs $762905731.04 and trays $48255673.55."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "91775",
+    "4040.45",
+    "61698",
+    "8162.72"
+   ],
+   "expect": "The 91775 packs at $4040.45 and 61698 trays at $8162.72 cost $874435797.31, packs $370812298.75 and trays $503623498.56."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "79639",
+    "8974.29",
+    "77436",
+    "3048.65"
+   ],
+   "expect": "The 79639 packs at $8974.29 and 77436 trays at $3048.65 cost $950778742.71, packs $714703481.31 and trays $236075261.40."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "84049",
+    "2752.28",
+    "66494",
+    "3001.44"
+   ],
+   "expect": "The 84049 packs at $2752.28 and 66494 trays at $3001.44 cost $430904133.08, packs $231326381.72 and trays $199577751.36."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "99972",
+    "7888.22",
+    "60760",
+    "5004.53"
+   ],
+   "expect": "The 99972 packs at $7888.22 and 60760 trays at $5004.53 cost $1092676372.64, packs $788601129.84 and trays $304075242.80."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "22231",
+    "4043.01",
+    "68265",
+    "8547.74"
+   ],
+   "expect": "The 22231 packs at $4043.01 and 68265 trays at $8547.74 cost $673391626.41, packs $89880155.31 and trays $583511471.10."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "80144",
+    "9717.11",
+    "66282",
+    "4794.65"
+   ],
+   "expect": "The 80144 packs at $9717.11 and 66282 trays at $4794.65 cost $1096567055.14, packs $778768063.84 and trays $317798991.30."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "99278",
+    "3278.54",
+    "53985",
+    "2149.06"
+   ],
+   "expect": "The 99278 packs at $3278.54 and 53985 trays at $2149.06 cost $441503898.22, packs $325486894.12 and trays $116017004.10."
+  }
+ ],
+ "errors": [
+  [
+   "cups",
+   [
+    "0",
+    "3",
+    "50"
+   ]
+  ],
+  [
+   "cups",
+   [
+    "100001",
+    "3",
+    "50"
+   ]
+  ],
+  [
+   "cups",
+   [
+    "46",
+    "0",
+    "50"
+   ]
+  ],
+  [
+   "cups",
+   [
+    "46",
+    "101",
+    "50"
+   ]
+  ],
+  [
+   "cups",
+   [
+    "46",
+    "3",
+    "0"
+   ]
+  ],
+  [
+   "cups",
+   [
+    "46",
+    "3",
+    "10001"
+   ]
+  ],
+  [
+   "tables",
+   [
+    "0",
+    "8"
+   ]
+  ],
+  [
+   "tables",
+   [
+    "46",
+    "0"
+   ]
+  ],
+  [
+   "tables",
+   [
+    "46",
+    "101"
+   ]
+  ],
+  [
+   "trays",
+   [
+    "0",
+    "4",
+    "24"
+   ]
+  ],
+  [
+   "trays",
+   [
+    "46",
+    "0",
+    "24"
+   ]
+  ],
+  [
+   "trays",
+   [
+    "46",
+    "101",
+    "24"
+   ]
+  ],
+  [
+   "trays",
+   [
+    "46",
+    "4",
+    "0"
+   ]
+  ],
+  [
+   "trays",
+   [
+    "46",
+    "4",
+    "1001"
+   ]
+  ],
+  [
+   "cost",
+   [
+    "0",
+    "6.25",
+    "8",
+    "14"
+   ]
+  ],
+  [
+   "cost",
+   [
+    "3",
+    "0",
+    "8",
+    "14"
+   ]
+  ],
+  [
+   "cost",
+   [
+    "3",
+    "6.25",
+    "0",
+    "14"
+   ]
+  ],
+  [
+   "cost",
+   [
+    "3",
+    "6.25",
+    "8",
+    "0"
+   ]
+  ],
+  [
+   "cost",
+   [
+    "3",
+    "6.25",
+    "8",
+    "10000.01"
+   ]
+  ]
+ ]
+}
