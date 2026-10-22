@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Party Math - app</title>
+<style>
+  :root { --accent:#2a7fb0; --ink:#10222c; --paper:#f0f7fb; --soft:#dcecf5; }
+  * { box-sizing:border-box; margin:0; }
+  body { font-family:Georgia, "Times New Roman", serif; background:var(--paper); color:var(--ink); line-height:1.55; }
+  main { max-width:660px; margin:0 auto; }
+  .boundary { background:#fdeaea; border-left:6px solid #b03030; color:#5c1c1c; border-radius:6px; padding:1rem 1.1rem; }
+  .boundary strong { display:block; margin-bottom:.3rem; }
+  body { padding:2rem 1.2rem; }
+  h1 { font-size:1.8rem; color:var(--accent); }
+  .boundary { margin:1rem 0 1.4rem; }
+  .panel { background:var(--soft); border-left:5px solid var(--accent); border-radius:6px; padding:1rem 1.1rem; margin-bottom:1.1rem; }
+  h2 { font-size:1.1rem; margin-bottom:.6rem; }
+  p.note { font-size:.9rem; margin-bottom:.4rem; }
+  label { display:block; font-size:.9rem; margin:.45rem 0 .1rem; }
+  input { width:100%; padding:.45rem .55rem; font-size:1rem; border:1px solid #9cc6dc; border-radius:6px; background:#fff; color:var(--ink); }
+  .row2 { display:grid; grid-template-columns:1fr 1fr; gap:.6rem; }
+  .out { margin-top:.7rem; font-size:.98rem; background:#fff; border:1px dashed #9cc6dc; border-radius:6px; padding:.6rem .7rem; min-height:2.4rem; overflow-wrap:anywhere; }
+  .out.err { border-color:#b03030; color:#8a1f1f; }
+  footer { margin-top:1.8rem; font-size:.85rem; color:#4f8099; }
+  a { color:var(--accent); }
+</style>
+</head>
+<body>
+<main>
+  <h1>Party Math</h1>
+  <div class="boundary">
+    <strong>Boundary: arithmetic only</strong>
+    This page counts party cups, tables and trays with multiplication, division and rounding-up: the cups and packs a guest list takes, the tables, the trays of food, and the cost. It uses no named constants. The guests, the cups and servings a guest, the pack and tray sizes, the seats a table and the prices are yours to decide and read off your own list and receipt. It applies the counting as written, so it has not met your guests and does not know who will come, who will eat what, your venue or any food safety or capacity rule, and it gives no verdict that the food is enough or the room fits. Every number here is your own entry.
+  </div>
+
+  <div class="panel">
+    <h2>The cups truth</h2>
+    <p class="note">Cups: the guests times the cups a guest, divided by the cups a pack, rounded up, with the cups left.</p>
+    <div class="row2"><div><label for="u-g">Guests</label><input id="u-g" type="text" value="46"></div><div><label for="u-c">Cups a guest</label><input id="u-c" type="text" value="3"></div></div>
+    <div class="row2"><div><label for="u-p">Cups a pack</label><input id="u-p" type="text" value="50"></div></div>
+    <div class="out" id="u-out"></div>
+  </div>
+  <div class="panel">
+    <h2>The tables truth</h2>
+    <p class="note">Tables: the guests divided by the seats a table, rounded up, with the empty seats.</p>
+    <div class="row2"><div><label for="t-g">Guests</label><input id="t-g" type="text" value="46"></div><div><label for="t-s">Seats a table</label><input id="t-s" type="text" value="8"></div></div>
+    <div class="out" id="t-out"></div>
+  </div>
+  <div class="panel">
+    <h2>The trays truth</h2>
+    <p class="note">Trays: the guests times the servings a guest, divided by the servings a tray, rounded up, with the servings left.</p>
+    <div class="row2"><div><label for="y-g">Guests</label><input id="y-g" type="text" value="46"></div><div><label for="y-v">Servings a guest</label><input id="y-v" type="text" value="4"></div></div>
+    <div class="row2"><div><label for="y-r">Servings a tray</label><input id="y-r" type="text" value="24"></div></div>
+    <div class="out" id="y-out"></div>
+  </div>
+  <div class="panel">
+    <h2>The cost truth</h2>
+    <p class="note">Cost: the packs and the trays, each at their price.</p>
+    <div class="row2"><div><label for="c-k">Packs</label><input id="c-k" type="text" value="3"></div><div><label for="c-p">Price a pack (dollars)</label><input id="c-p" type="text" value="6.25"></div></div>
+    <div class="row2"><div><label for="c-n">Trays</label><input id="c-n" type="text" value="8"></div><div><label for="c-q">Price a tray (dollars)</label><input id="c-q" type="text" value="14.00"></div></div>
+    <div class="out" id="c-out"></div>
+  </div>
+
+  <footer>Party Math is exact arithmetic over the numbers you enter. <a href="index.html">Why it exists</a>.</footer>
+</main>
+<script src="engine.js"></script>
+<script>
+  function show(id, fn) {
+    const out = document.getElementById(id);
+    try { out.textContent = fn(); out.classList.remove("err"); }
+    catch (e) { out.textContent = e.message; out.classList.add("err"); }
+  }
+  function recalc() {
+    const v = (id) => document.getElementById(id).value;
+    show("u-out", () => cupsTruth(v("u-g"), v("u-c"), v("u-p")));
+    show("t-out", () => tablesTruth(v("t-g"), v("t-s")));
+    show("y-out", () => traysTruth(v("y-g"), v("y-v"), v("y-r")));
+    show("c-out", () => costTruth(v("c-k"), v("c-p"), v("c-n"), v("c-q")));
+  }
+  document.querySelectorAll("input").forEach((el) => {
+    el.addEventListener("input", recalc);
+    el.addEventListener("change", recalc);
+  });
+  recalc();
+</script>
+</body>
+</html>
